@@ -1,4 +1,4 @@
-import { makeObservable, observable } from "mobx"
+import { action, makeObservable, observable } from "mobx"
 
 class TodoStore {
   todos = []
@@ -8,6 +8,10 @@ class TodoStore {
     makeObservable(this, {
       todos: observable,
       activeIndex: observable,
+      addTask: action,
+      setIndex: action,
+      updateTask: action,
+      deleteTask: action,
     })
   }
 
