@@ -1,0 +1,12 @@
+.Home {
+  padding: 50px;
+  .card {
+    .card-body {
+      padding: 0.5rem 0.5rem !important;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: aliceblue;
+    }
+  }
+}

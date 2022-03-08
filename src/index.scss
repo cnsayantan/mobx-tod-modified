@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+// Universal Class
+
+.update-wrapper {
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: aliceblue;
+}
+
+.select-todo {
+  padding: 4px 10px 4px 4px !important;
+  border-radius: 6px !important;
+  background-color: antiquewhite !important;
+}
