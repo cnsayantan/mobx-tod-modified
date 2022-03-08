@@ -28,6 +28,9 @@ class TodoStore {
   updateTask(updatedOption) {
     this.todos[this.activeIndex].completed = updatedOption
   }
+  deleteTask(deletedOption) {
+    this.todos.splice(deletedOption)
+  }
 }
 
 const todoStore = new TodoStore()

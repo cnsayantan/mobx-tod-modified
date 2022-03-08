@@ -21,7 +21,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={home} />
-      <Route path="edit" element={<Update />} />
+      <Route path="update" element={<Update />} />
     </Routes>
   </BrowserRouter>,
 
